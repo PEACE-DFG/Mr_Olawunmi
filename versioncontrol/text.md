@@ -28,5 +28,6 @@ COMMANDS
 6. git remote add origin <paste the address copied> -> to connect the local repo to the remote repo
 7. git remote -v -> to view remote address
 8. git remote remove origin -> to delete remote address
-9. git push origin master
+9. git push origin master -> this is the command to send the local repo to the github account
+
 
