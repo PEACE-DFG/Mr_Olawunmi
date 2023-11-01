@@ -1,0 +1,25 @@
+/* 
+Selector{
+DECLARATION[PROPERTY:VALUE]
+}
+ */
+ /* body{
+    background-color: red;
+ } */
+ .one{
+    color: aqua;
+}
+#one{
+    color: blue;
+    /* colors
+    
+    */
+}
+.image{
+    /* background-image: url('https://hips.hearstapps.com/hmg-prod/images/dw-burnett-pcoty22-8260-1671143390.jpg?crop=0.668xw:1.00xh;0.184xw,0&resize=640:*'); */
+    background: linear-gradient(rgb(0,0,0,0.9),rgb(0,0,0,0.4)),url('https://hips.hearstapps.com/hmg-prod/images/dw-burnett-pcoty22-8260-1671143390.jpg?crop=0.668xw:1.00xh;0.184xw,0&resize=640:*');
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: 0.4; */
+}

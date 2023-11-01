@@ -1,0 +1,21 @@
+.over{
+  /* border:5px dotted red; */
+  height:500px;
+  /* overflow:visible; */
+  /* overflow:hidden; */
+  /* overflow-y: scroll; */
+  overflow:auto;
+}
+img{
+  width:300px;
+  /* float:left; */
+  /* float:right; */
+}
+li{
+  float:left;
+  width:18%;
+  list-style-type: none;
+  background-color: blue;
+  color:white;
+  padding:10px;
+}

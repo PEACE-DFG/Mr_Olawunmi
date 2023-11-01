@@ -1,0 +1,275 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#head{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 50px;
+}
+#contact{
+  display: flex;
+}
+header{
+  background-color: rgb(3, 3, 55);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.ice i{
+  padding: 0px 5px;
+}
+#contact div{
+  padding: 0px 10px;
+}
+.all{
+  background: linear-gradient(rgb(0,0,0,0.8),rgb(0,0,0,0.8)),url('images/girl.avif');
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+nav{
+  color: white;
+  padding: 25px 70px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+}
+#right{
+  display: flex;
+}
+li{
+  list-style-type: none;
+}
+#right>li{
+  padding: 0px 8px;
+}
+#logo{
+  font-size: 25px;
+}
+#text{
+  color: white;
+  padding: 100px 450px 20px 60px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#big{
+  font-size: 50px;
+}
+.normal{
+  padding: 20px 0px;
+  color: grey;
+}
+#button{
+  background-color: orangered;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  font-weight: 800;
+}
+#box{
+  width: 350px;
+  height: 200px;
+  text-align: center;
+  background-color: rgb(245, 242, 242,0.3);
+}
+#box h4{
+  font-size: 20px;
+  color: white;
+  padding: 10px 0px 30px 0px;
+}
+#box p{
+  padding: 15px 20px;
+  color: grey;
+}
+#box h5{
+  font-size: 15px;
+  font-weight: 700;
+}
+.box{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 100px;
+
+}
+.second{
+  margin-top: 150px;
+}
+.title{
+  margin-top: 280px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom:30px;
+}
+.title h1{
+  font-size: 30px;
+}
+.title p{
+  color: grey;
+  padding-top: 8px;
+}
+.dropdown{
+  display:none;
+}
+
+/* css responsponsiveness */
+@media(max-width:1334px){
+  #text{
+  padding: 100px 400px 20px 60px;
+
+  }
+}
+@media(max-width:1284px){
+  #text{
+  padding: 100px 350px 20px 60px;
+
+  }
+}
+@media(max-width:1234px){
+  #text{
+    padding: 100px 300px 20px 60px;
+  
+    }
+}
+@media(max-width:1184px){
+  #text{
+  padding: 100px 250px 20px 60px;
+
+  }
+}
+@media(max-width:1134px){
+  #text{
+  padding: 100px 200px 20px 60px;
+
+  }
+}
+@media(max-width:1084px){
+  #text{
+  padding: 100px 150px 20px 60px;
+
+  }
+}
+@media(max-width:1034px){
+  #text{
+    padding: 100px 100px 20px 60px;
+  
+    }
+  #box{
+    width: 300px;
+  }
+}
+@media(max-width:984px){
+  #big{
+   font-size: 45px;
+  }
+ }
+
+ @media(max-width:907px){
+  #box{
+    width: 270px;
+   }
+ }
+ @media(max-width:901px){
+  #big{
+    font-size: 40px;
+   }
+  .second{
+    margin-top: 170px;
+  }
+ }
+ @media(max-width:889px){
+  #right{
+    display: none;
+  }
+  .dropdown{
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown-content{
+    position: absolute;
+    display: none;
+  }
+  .dropdown:hover .dropdown-content{
+    display:block;
+  }
+ }
+
+ @media(max-width:819px){
+  #text{
+    padding: 50px 300px 20px 60px;
+  
+    }
+
+ }
+ @media(max-width:809px){
+  #box{
+    width: 250px;
+   }
+   #big{
+    font-size: 35px;
+   }
+ }
+ @media(max-width:749px){
+  #box{
+    width:220px;  
+  }
+ }
+ @media(max-width:721px){
+  #text{
+    padding: 100px 50px 20px 60px;
+  
+    }
+ }
+ @media(max-width:683px){
+  #text{
+    padding: 100px 20px 20px 60px;
+  
+    }
+ }
+ @media(max-width:662px){
+  .box{
+    flex-wrap: wrap;
+  }
+
+ }
+ @media(max-width:659px){
+  #box{
+    box-shadow: 10px 10px 8px grey;
+    background-color: bisque;
+    margin: 10px 0px;
+  }
+  .title{
+    margin-top:400px;
+  }
+ }
+ @media(max-width:635px){
+  .title{
+    margin-top: 460px;
+  }
+ }
+ @media(max-width:583px){
+  #head{
+    display:block;
+    text-align: center;
+  }
+  #contact{
+    justify-content: center;
+  }
+ }
+ @media(max-width:439px){
+  .title{
+    margin-top: 800px;
+  }
+ }
+ @media(max-width:375px){
+  #text{
+    padding: 80px 20px 20px 60px;
+  
+    }
+    #big{
+      font-size: 30px;
+    }
+ }

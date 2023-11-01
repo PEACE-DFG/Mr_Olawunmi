@@ -1,0 +1,34 @@
+
+/* descendant selector */
+/* div p{
+  color: red;
+} */
+
+/* child selector > */
+/* div>p{
+  color: blue;
+} */
+
+/* adjacent selector */
+/* div+p{
+  color: yellow;
+} */
+
+/* general sibling */
+/* div~p{
+  color: red;
+} */
+
+
+#back{
+  border: 1px solid black;
+  /* padding: 50px; */
+  max-width: 500px;
+  margin: auto;
+  height: 500px;
+  border-radius: 50%;
+  /* background-image: linear-gradient(rgb(20, 20, 163),red,green,yellow); */
+  /* background-image: repeating-radial-gradient(circle, red 10%,green,yellow 40%); */
+  /* background-image: conic-gradient(red 0deg, red 90deg, yellow 90deg,yellow 180deg,blue 180deg,blue 270deg,aqua 270deg); */
+  background-image: repeating-conic-gradient(red 10%, yellow 20%);
+}

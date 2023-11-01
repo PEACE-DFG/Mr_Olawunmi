@@ -1,0 +1,113 @@
+/* #feet div{
+  border: 1px solid black;
+  width: fit-content;
+  margin: 5px ;
+  padding: 20px;
+  background-color: blue;
+  color:white;
+} */
+#feet{
+  display: flex;
+  /* justify-content: center; */
+  /* justify-content: end; */
+  /* justify-content: start; */
+  /* justify-content: space-around; */
+  /* justify-content: space-between; */
+  justify-content: space-evenly;
+  /* flex-direction: column; */
+  /* flex-direction: column-reverse; */
+  /* flex-direction: row; */
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+
+
+}
+div:hover{
+  width: 400px;
+  height: 400px;
+  transform: rotate(180deg);
+}
+div{
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  transition: width 2s, height 2s,transform 2s;
+
+
+
+
+
+
+  /* animation-name: dynam; */
+  /* animation-duration: 9s; */
+  /* animation-iteration-count: infinite; */
+  /* animation-delay: 3s; */
+  /* position: relative; */
+  /* ease- start slow, fast middle, slow at the end
+    linear- uniform speed
+    ease in- slow start
+    ease out- slow end
+    ease-in-out- slwo start and slow end
+  
+   */
+   /* animation-timing-function: ease; */
+   /* animation-timing-function: ease-in; */
+   /* animation-timing-function: ease-out; */
+   /* animation-timing-function: ease-in-out; */
+   /* animation-timing-function: linear; */
+   /* animation-direction: alternate; */
+   /* animation-direction: alternate-reverse; */
+   /* animation-direction: reverse; */
+   /* animation-direction: normal; */
+
+   /* 
+   animation shorthand->
+
+   animation: name duration timing-function delay iteration-count direction
+   */
+  /* animation: dynam 9s ease 1s infinite alternate; */
+
+  }
+
+@keyframes dynam{
+  0%{
+    background-color: red;
+    top: 0px;
+    left: 0px;
+  }
+  25%{
+    background-color: blue;
+    top: 0px;
+    left: 400px;
+  }
+  50%{
+    background-color: yellow;
+    top: 400px;
+    left: 400px;
+  }
+  75%{
+    background-color: aqua;
+    left: 0px;
+    top: 400px;
+  }
+  100%{
+    background-color: pink;
+    top: 0px;
+    left: 0px;
+  }
+}
+
+#box{
+  font-size: 25px;
+  font-weight: 900;
+  background-color: blue;
+  color: white;
+  animation-name: text;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+@keyframes text {
+  0%{color: white;}
+  50%{color: red;}
+  100%{color: yellow;}
+}

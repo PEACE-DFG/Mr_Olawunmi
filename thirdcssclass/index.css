@@ -1,0 +1,66 @@
+/* 
+Selector:Pseudoclass{
+
+}
+*/
+#state{
+  border: 1px solid transparent;
+  padding: 5px;
+  /* border-radius: 10px; */
+  background-color: yellow;
+  text-decoration: none;
+  color: black;
+}
+#state:hover{
+  background-color: aqua;
+  color: white;
+  border-bottom: 2px solid purple;
+}
+#state:active{
+  background-color: red;
+  box-shadow: 5px 5px 10px grey;
+}
+#state:visited{
+  background-color: white;
+  color:purple;
+}
+ul{
+  background-color: red;
+  padding:10px;
+}
+li{
+  display: inline;
+  background-color: blue;
+  margin: 0px 100px;
+}
+span{
+  display:block;
+}
+.rel{
+  position:relative;
+}
+.abs{
+  position: absolute;
+  top: 300px;
+  left: 500px;
+}
+.text{
+  position: static;
+}
+.stick{
+  position: sticky;
+  background-color: blue;
+  color: white;
+  font-size: 30px;
+  top: 0;
+}
+.ice{
+  border: 1px solid black;
+  width: fit-content;
+  padding: 5px;
+  background-color: green;
+  color: white;
+  position: fixed;
+  top: 450px;
+  left: 1300px;
+}

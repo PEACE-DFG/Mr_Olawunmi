@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Class</title>
+</head>
+<body>
+    <div>
+        <h1>Register Page</h1>
+    </div>
+    <form action="">
+        <div>
+            <p>
+                Username:
+            </p>
+            <input type="text" value="Enter Your Username" size="50">
+        </div>
+        <!-- email -->
+        <div>
+            <p>
+                Email:
+            </p>
+            <input type="email" placeholder="Enter Your Email" required>
+        </div>
+        <!-- password -->
+        <div>
+            <p>
+                Password:
+            </p>
+            <input type="password" maxlength="8">
+        </div>
+        <!-- radio -->
+        <div>
+            <p>Please select your gender</p>
+            <input type="radio" name="gender">Male
+            <input type="radio" name="gender" checked>Female
+        </div>
+        <!-- checkbox -->
+        <div>
+            <p>
+                Select your Favorite cars:
+            </p>
+            <input type="checkbox" name="" id="">Toyota
+            <input type="checkbox" name="" id="">Honda
+            <input type="checkbox" name="" id="" checked>BMW
+            <input type="checkbox" name="" id="">Volvo
+        </div>
+        <!-- file -->
+        <div>
+            <p>Upload your passport</p>
+            <input type="file">
+        </div>
+        <!-- color -->
+        <div>
+            <p>Choose your Favorite color</p>
+            <input type="color">
+        </div>
+        <!-- date -->
+        <div>
+            <p>Enter Your date of birth</p>
+            <input type="datetime-local" name="" id="">
+        </div>
+        <!-- button -->
+        <!-- <input type="button" value="Login"> -->
+        <!-- <input type="submit"> -->
+
+        <div>
+            <p>Write a Post</p>
+            <textarea name="" id="" cols="50" rows="5"></textarea>
+        </div>
+
+        <div>
+            <p>Select Your Favorite Browsers</p>
+            <select name="" id="">
+                <option value="Chrome">Chrome</option>
+                <option value="Opera">Opera</option>
+                <option value="Edge" selected>Edge</option>
+                <option value="Mozilla">Mozilla</option>
+            </select>
+        </div>
+        <div>
+            <p>Age</p>
+            <input type="number" step="2">
+        </div>
+        <div>
+            <p>Search Here</p>
+            <input type="search">
+        </div>
+
+        <div>
+            <p>Choose the range</p>
+            <input type="range">
+        </div>
+
+
+        <button type="submit">Login</button>
+    </form>
+    <p>
+        Already have an Account? <span><a href="login.html">Sign In</a></span>
+    </p>
+    
+</body>
+</html>
