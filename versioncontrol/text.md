@@ -22,3 +22,11 @@ COMMANDS
 ------------GITHUB------------
 1. git init -> it is used to initialiaze git repository
 2. git status -> it is used to check the status of the repository
+3. git add . -> it is used to add untracked files
+4. git commit -m "pass your message" -> it is used to commit and pass message of who and where you stopped
+5. git log -> it is used to log out all the messages of the commits
+6. git remote add origin <paste the address copied> -> to connect the local repo to the remote repo
+7. git remote -v -> to view remote address
+8. git remote remove origin -> to delete remote address
+9. git push origin master
+
