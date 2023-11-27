@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+  <!-- JS function -->
+  <h1 id="demo">
+     
+  </h1>
+
+  <h1 id="date">
+
+  </h1>
+
+  <button onclick="document.getElementById('date').innerHTML=Date()">
+    Check Date
+  </button>
+
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <!-- Calculator -->
+  <input type="text" placeholder="0" id="output">
+  <button type="button" onclick="document.getElementById('output').value += '2'">2</button>
+<button type="button" onclick="document.getElementById('output').value +='5'">5</button>
+<button type="button" onclick="document.getElementById('output').value += '+'">+</button>
+
+<button type="button" onclick="document.getElementById('output').value=eval(document.getElementById('output').value)">=</button>
+<button type="button" onclick="document.getElementById('output').value= ' '">CLEAR</button>  
+
+<script src="index.js"></script>
+</body>
+</html>
