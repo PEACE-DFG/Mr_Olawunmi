@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: aliceblue;
+}
+
+#all{
+  max-width: 400px;
+  border: 1px solid transparent;
+  padding: 50px;
+  box-shadow: 10px 10px 8px grey;
+  margin: auto;
+  border-radius: 10px;
+  background-color: white;
+}
+#body{
+  padding-top: 70px;
+}
+#input{
+  text-align: center;
+
+}
+#output{
+  width: 100%;
+  height: 50px;
+  font-size: 30px;
+  border: none;
+}
+button{
+  width: 100%;
+  padding: 20px;
+}
+#buttons{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
