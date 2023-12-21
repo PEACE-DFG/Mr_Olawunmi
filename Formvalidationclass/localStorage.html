@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LocalStorage</title>
+  <style>
+    body{
+      padding-top: 70px;
+    }
+    body div{
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  
+  <div>
+    <input type="text">
+    <button onclick="localStorage.clear()">CLEAR LOCALSTORAGE</button>
+    <h2>  </h2>
+  </div>
+
+
+  <script>
+    //without local storage 
+    const input = document.querySelector('input');
+    h2 = document.querySelector('h2');
+
+    input.addEventListener('keyup',display);
+
+ //   function display(){
+   //   h2.innerHTML=input.value;
+    //}
+
+    // WITH LOCALSTORAGE
+
+    /*
+    localStorage.setItem -> to put something inside the localstorage
+    localstorage.getItem -> to bring out something from the local storage
+    localstorage.clear()-> delete all items on the local storage
+
+
+    localstorage.setItem('key','value')
+
+    */
+    function display(){
+        localStorage.setItem('data', input.value)// to put into localstorage
+      console.log(localStorage.getItem('data'));
+      //h2.innerHTML= localStorage.getItem('data');
+    }
+    h2.innerHTML= localStorage.getItem('data');
+
+
+
+
+  </script>
+</body>
+</html>
